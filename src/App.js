@@ -182,8 +182,16 @@ function App() {
             <a className="btn btn-filled" href="#contact">Contact Info</a>
           </div>
           <div className="social-row" aria-label="Social links">
-            <a href={contact.linkedin} target="_blank" rel="noreferrer">in</a>
-            <a href={contact.github} target="_blank" rel="noreferrer">gh</a>
+            <a href={contact.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn profile">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6.94 8.98H3.56V20h3.38V8.98ZM5.25 4a1.96 1.96 0 1 0 0 3.92A1.96 1.96 0 0 0 5.25 4Zm14.86 9.68c0-3.05-1.63-4.47-3.8-4.47a3.28 3.28 0 0 0-2.98 1.64h-.05V8.98h-3.24V20h3.38v-5.45c0-1.44.27-2.83 2.05-2.83 1.76 0 1.78 1.64 1.78 2.92V20h3.38v-6.32h-.02Z" />
+              </svg>
+            </a>
+            <a href={contact.github} target="_blank" rel="noreferrer" aria-label="GitHub profile">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 .5A11.5 11.5 0 0 0 8.36 22.9c.58.11.79-.25.79-.56v-2.02c-3.22.7-3.9-1.38-3.9-1.38-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.16.08 1.78 1.2 1.78 1.2 1.04 1.77 2.72 1.26 3.38.96.11-.75.41-1.26.74-1.55-2.57-.29-5.27-1.28-5.27-5.72 0-1.26.45-2.3 1.19-3.11-.12-.29-.52-1.47.11-3.06 0 0 .98-.31 3.18 1.19a10.98 10.98 0 0 1 5.8 0c2.2-1.5 3.17-1.19 3.17-1.19.64 1.59.24 2.77.12 3.06.74.81 1.19 1.85 1.19 3.11 0 4.45-2.7 5.42-5.28 5.71.42.36.79 1.07.79 2.16v3.05c0 .31.21.68.8.56A11.5 11.5 0 0 0 12 .5Z" />
+              </svg>
+            </a>
           </div>
         </div>
       </section>

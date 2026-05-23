@@ -228,6 +228,13 @@ p {
   transition: transform 240ms ease, background 240ms ease;
 }
 
+.social-row svg {
+  width: 22px;
+  height: 22px;
+  display: block;
+  fill: currentColor;
+}
+
 .social-row a:hover {
   background: var(--accent);
   transform: translateY(-3px);
