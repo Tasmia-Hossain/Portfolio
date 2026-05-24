@@ -11,7 +11,6 @@ function getAsset(fileName) {
 
 const contact = {
   email: "tasmiahossain1703@gmail.com",
-  phone: "+880 1521741282",
   location: "Dhaka, Bangladesh",
   github: "https://github.com/Tasmia-Hossain",
   linkedin: "https://linkedin.com/in/tasmia-hossain-kashfia",
@@ -317,7 +316,6 @@ function App() {
           <a href={`mailto:${contact.email}`}>{contact.email}</a>
           <a href={contact.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
           <a href={contact.github} target="_blank" rel="noreferrer">GitHub</a>
-          <a href={`tel:${contact.phone.replaceAll(" ", "")}`}>{contact.phone}</a>
         </div>
       </section>
 
