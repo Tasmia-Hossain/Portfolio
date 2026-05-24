@@ -215,11 +215,11 @@ function App() {
               ))}
             </div>
             <p className="about-text">
-              I enjoy building complete systems, not only UI screens. My projects include a
-              lost-item recovery platform, urban parking marketplace, inventory management
-              dashboard, and cross-platform Sudoku app. I am looking for internship or junior
-              software engineering opportunities where I can contribute, learn fast, and grow with
-              a strong engineering team.
+              I am a Computer Science and Engineering undergraduate at Ahsanullah University of Science and Technology with interests in full-stack software development, AI/ML systems, and intelligent urban technologies. I have built web, mobile, and database-driven applications using technologies such as ASP.NET Core, React, PHP, Flutter, and SQL-based systems.
+
+              My work includes projects focused on real-time communication, smart parking solutions, inventory management, and mobile application development. I am also conducting ongoing research on traffic flow prediction and dynamic routing using Graph Neural Networks for urban transport systems in Bangladesh.
+
+              I enjoy solving real-world problems through scalable software solutions and continuously improving my skills through hands-on development, research, and collaborative learning. I am currently seeking internship or junior software engineering opportunities where I can contribute, grow, and work with strong engineering teams.
             </p>
           </div>
         </div>
