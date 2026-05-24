@@ -10,7 +10,7 @@ function getAsset(fileName) {
 }
 
 const contact = {
-  email: "tasmiahossain1703@gmail.com",
+  email: "tasmiahossain360@gmail.com",
   location: "Dhaka, Bangladesh",
   github: "https://github.com/Tasmia-Hossain",
   linkedin: "https://linkedin.com/in/tasmia-hossain-kashfia",
