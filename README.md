@@ -33,7 +33,7 @@ My projects emphasize practical engineering concepts such as:
 
 ## ✨ Portfolio Highlights
 
-- **7+ production-style projects** across web, backend, mobile, and software systems
+- **6+ production-style projects** across web, backend, mobile, and software systems
 - Strongest focus on **C#, ASP.NET Core, EF Core, SQL Server, and backend development**
 - Experience building both **MVC web applications and production-style REST APIs**
 - Backend experience with **NestJS, TypeScript, PostgreSQL, Prisma, JWT, Docker, and automated testing**
@@ -98,7 +98,6 @@ My projects emphasize practical engineering concepts such as:
 | **EchoGPT Backend** | Production-style AI chat backend with authentication, subscriptions and quotas, multi-provider AI management, chat, cached web search, admin analytics, and Swagger documentation. | NestJS, TypeScript, PostgreSQL, Prisma, JWT, Docker, Jest/Supertest |
 | **Lost and Found Hub** | Item recovery platform with authentication, image-based matching, advanced search, email notifications, and recovery workflows. | ASP.NET Core MVC, C#, SQL Server, SMTP |
 | **SafeParking** | Parking discovery and booking platform with map search, subscriptions, reviews, admin tools, and payment history. | PHP, MySQL, JavaScript, Google Maps API |
-| **Inventory Control System** | Inventory management system with admin, client, and supplier workflows, product management, and reporting. | PHP, MySQL, Bootstrap, JavaScript |
 | **Sudoku Bliss** | Cross-platform Sudoku application with puzzle generation, difficulty modes, save/resume, SQLite persistence, and tutorials. | Flutter, Dart, SQLite |
 
 > For detailed project descriptions, screenshots, source code, and demos, visit the [live portfolio](https://tasmia-portfolio-three.vercel.app).
