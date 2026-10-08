@@ -100,7 +100,7 @@ export const projects = [
     stack: ["ASP.NET Core MVC", "C#", ".NET 10", "EF Core", "SQL Server", "Google Gemini"],
     github: "https://github.com/Tasmia-Hossain/AIJobTracker",
     liveDemo: "https://youtu.be/Z-YWoROj0PY",
-    featured: true,
+    image: "https://raw.githubusercontent.com/Tasmia-Hossain/AIJobTracker/main/screenshots/dashboard.png",
   },
   {
     name: "PlantCareAI",
@@ -114,6 +114,7 @@ export const projects = [
     stack: ["ASP.NET Core MVC", "C#", ".NET 10", "EF Core", "SQL Server", "Groq API"],
     github: "https://github.com/Tasmia-Hossain/PlantCareAI",
     liveDemo: "https://youtu.be/IGENDYYFM4o",
+    image: "https://raw.githubusercontent.com/Tasmia-Hossain/PlantCareAI/main/docs/screenshots/dashboard.png",
   },
   {
     name: "EchoGPT Backend",
@@ -127,7 +128,7 @@ export const projects = [
     stack: ["NestJS", "TypeScript", "PostgreSQL", "Prisma", "JWT", "Docker"],
     github: "https://github.com/Tasmia-Hossain/EchoGPTBackend",
     liveDemo: "",
-    featured: true,
+    image: "https://opengraph.githubassets.com/1/Tasmia-Hossain/EchoGPTBackend",
   },
   {
     name: "Lost and Found Hub",
@@ -142,7 +143,6 @@ export const projects = [
     github: "https://github.com/Tasmia-Hossain/lost-and-found-hub",
     liveDemo: "",
     image: projectLostFound,
-    featured: true,
   },
   {
     name: "SafeParking",
