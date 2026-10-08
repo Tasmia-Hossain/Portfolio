@@ -445,11 +445,16 @@ main {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 20px;
+  align-items: stretch;
 }
 
 .project-card {
+  min-width: 0;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
 }
@@ -460,28 +465,19 @@ main {
   box-shadow: 0 34px 110px rgba(65, 214, 179, 0.16);
 }
 
-.project-card.featured {
-  grid-column: span 2;
-  display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr);
-}
-
 .project-visual {
-  min-height: 260px;
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  flex: 0 0 auto;
   background:
     linear-gradient(135deg, rgba(65, 214, 179, 0.12), rgba(244, 184, 96, 0.1)),
     var(--panel-strong);
   overflow: hidden;
 }
 
-.project-card.featured .project-visual {
-  min-height: 100%;
-}
-
 .project-visual img {
   width: 100%;
   height: 100%;
-  min-height: 260px;
   display: block;
   object-fit: cover;
   object-position: center top;
@@ -493,7 +489,15 @@ main {
 }
 
 .project-body {
-  padding: clamp(22px, 3vw, 32px);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: clamp(22px, 3vw, 28px);
+}
+
+.project-actions {
+  margin-top: auto;
+  padding-top: 22px;
 }
 
 .project-meta {
@@ -696,9 +700,8 @@ footer p {
     grid-template-columns: 1fr;
   }
 
-  .project-card.featured {
-    grid-column: span 1;
-    grid-template-columns: 1fr;
+  .project-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .contact-actions {
