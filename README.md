@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>Software Engineer | .NET Developer</strong><br/>
-  C# • ASP.NET Core • EF Core • SQL Server • REST APIs
+  C# • ASP.NET Core • EF Core • SQL Server • REST APIs • NestJS
 </p>
 
 <p align="center">
@@ -35,7 +35,8 @@ My projects emphasize practical engineering concepts such as:
 
 - **7+ production-style projects** across web, backend, mobile, and software systems
 - Strongest focus on **C#, ASP.NET Core, EF Core, SQL Server, and backend development**
-- Experience building both **MVC web applications and REST APIs**
+- Experience building both **MVC web applications and production-style REST APIs**
+- Backend experience with **NestJS, TypeScript, PostgreSQL, Prisma, JWT, Docker, and automated testing**
 - AI-enabled applications using external AI APIs
 - Undergraduate research on **traffic prediction and dynamic routing using Graph Neural Networks**
 - Continuous learning through **Microsoft Learn, LeetCode, and hands-on projects**
@@ -52,12 +53,33 @@ My projects emphasize practical engineering concepts such as:
 - Authentication & authorization
 - CRUD operations
 
+### Backend APIs
+- NestJS
+- TypeScript
+- RESTful API design
+- Swagger / OpenAPI
+- JWT authentication & refresh tokens
+- Role-based access control
+- Request validation & rate limiting
+
 ### Databases
 - SQL Server
+- PostgreSQL
 - MySQL
 - SQLite
+- Prisma ORM
 - Relational database design
 - Query design and data modeling
+
+### Testing, DevOps & Other Technologies
+- Docker & Docker Compose
+- Jest & Supertest
+- Git & GitHub
+- Python
+- Java
+- C++
+- Graph Neural Networks
+- AI API integration
 
 ### Frontend
 - JavaScript
@@ -68,20 +90,13 @@ My projects emphasize practical engineering concepts such as:
 - Responsive UI development
 
 ### Other Technologies
-- Git & GitHub
-- Python
-- Java
-- C++
-- Graph Neural Networks
-- AI API integration
-
 ## 🚀 Featured Projects
 
 | Project | Description | Main Technologies |
 | --- | --- | --- |
 | **AIJobTracker** | Job application tracking platform with status history, analytics, AI job analysis, and resume matching. | ASP.NET Core MVC, C#, .NET 10, EF Core, SQL Server, Gemini |
 | **PlantCareAI** | Plant management and care-tracking application with health records, image uploads, and an AI care assistant. | ASP.NET Core MVC, C#, .NET 10, EF Core, SQL Server, Groq |
-| **EchoGPT Backend** | Production-style REST API for an AI chat extension with authentication, subscriptions, multi-provider AI management, chat, search, and Swagger documentation. | NestJS, TypeScript, PostgreSQL, Prisma, JWT, Docker |
+| **EchoGPT Backend** | Production-style AI chat backend with authentication, subscriptions and quotas, multi-provider AI management, chat, cached web search, admin analytics, and Swagger documentation. | NestJS, TypeScript, PostgreSQL, Prisma, JWT, Docker, Jest/Supertest |
 | **Lost and Found Hub** | Item recovery platform with authentication, image-based matching, advanced search, email notifications, and recovery workflows. | ASP.NET Core MVC, C#, SQL Server, SMTP |
 | **SafeParking** | Parking discovery and booking platform with map search, subscriptions, reviews, admin tools, and payment history. | PHP, MySQL, JavaScript, Google Maps API |
 | **Inventory Control System** | Inventory management system with admin, client, and supplier workflows, product management, and reporting. | PHP, MySQL, Bootstrap, JavaScript |
