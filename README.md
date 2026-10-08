@@ -1,70 +1,241 @@
-# Getting Started with Create React App
+# Tasmia Hossain — Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <strong>Software Engineer | .NET Developer</strong><br/>
+  C# • ASP.NET Core • EF Core • SQL Server • REST APIs
+</p>
 
-## Available Scripts
+<p align="center">
+  <a href="https://tasmia-portfolio-three.vercel.app">Live Portfolio</a> •
+  <a href="https://github.com/Tasmia-Hossain">GitHub</a> •
+  <a href="https://linkedin.com/in/tasmia-hossain-kashfia">LinkedIn</a>
+</p>
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 👋 About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This repository contains my personal developer portfolio, built to present my software engineering work, technical skills, undergraduate research, and learning journey in one place.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+I am a **Computer Science & Engineering graduate from Ahsanullah University of Science and Technology (AUST)** with a **CGPA of 3.60/4.00**, focused on **software engineering and backend development with C# and ASP.NET Core**.
 
-### `npm test`
+My projects emphasize practical engineering concepts such as:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Backend and web application architecture
+- Authentication and user-specific data access
+- CRUD workflows and relational database design
+- RESTful API development
+- Third-party AI API integration
+- Dashboard and analytics features
+- Role-based access control
+- Search, notifications, and business workflows
+- Clean, responsive user interfaces
 
-### `npm run build`
+## ✨ Portfolio Highlights
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **7+ production-style projects** across web, backend, mobile, and software systems
+- Strongest focus on **C#, ASP.NET Core, EF Core, SQL Server, and backend development**
+- Experience building both **MVC web applications and REST APIs**
+- AI-enabled applications using external AI APIs
+- Undergraduate research on **traffic prediction and dynamic routing using Graph Neural Networks**
+- Continuous learning through **Microsoft Learn, LeetCode, and hands-on projects**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Backend & .NET
+- C#
+- ASP.NET Core
+- ASP.NET Core MVC
+- Entity Framework Core
+- RESTful APIs
+- ASP.NET Core Identity
+- Authentication & authorization
+- CRUD operations
 
-### `npm run eject`
+### Databases
+- SQL Server
+- MySQL
+- SQLite
+- Relational database design
+- Query design and data modeling
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Frontend
+- JavaScript
+- HTML5
+- CSS3
+- Bootstrap
+- React (basic)
+- Responsive UI development
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Other Technologies
+- Git & GitHub
+- Python
+- Java
+- C++
+- Graph Neural Networks
+- AI API integration
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Featured Projects
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+| Project | Description | Main Technologies |
+| --- | --- | --- |
+| **AIJobTracker** | Job application tracking platform with status history, analytics, AI job analysis, and resume matching. | ASP.NET Core MVC, C#, .NET 10, EF Core, SQL Server, Gemini |
+| **PlantCareAI** | Plant management and care-tracking application with health records, image uploads, and an AI care assistant. | ASP.NET Core MVC, C#, .NET 10, EF Core, SQL Server, Groq |
+| **EchoGPT Backend** | Production-style REST API for an AI chat extension with authentication, subscriptions, multi-provider AI management, chat, search, and Swagger documentation. | NestJS, TypeScript, PostgreSQL, Prisma, JWT, Docker |
+| **Lost and Found Hub** | Item recovery platform with authentication, image-based matching, advanced search, email notifications, and recovery workflows. | ASP.NET Core MVC, C#, SQL Server, SMTP |
+| **SafeParking** | Parking discovery and booking platform with map search, subscriptions, reviews, admin tools, and payment history. | PHP, MySQL, JavaScript, Google Maps API |
+| **Inventory Control System** | Inventory management system with admin, client, and supplier workflows, product management, and reporting. | PHP, MySQL, Bootstrap, JavaScript |
+| **Sudoku Bliss** | Cross-platform Sudoku application with puzzle generation, difficulty modes, save/resume, SQLite persistence, and tutorials. | Flutter, Dart, SQLite |
 
-## Learn More
+> For detailed project descriptions, screenshots, source code, and demos, visit the [live portfolio](https://tasmia-portfolio-three.vercel.app).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔬 Undergraduate Research
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Traffic Flow Prediction and Dynamic Routing in Bangladesh's Urban Transport Networks with Graph Neural Networks
 
-### Code Splitting
+My undergraduate research explored how Dhaka's road network can be represented as a graph to model traffic movement, predict traffic-flow patterns, identify congestion hotspots, and support adaptive routing decisions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Focus areas:**
+- Graph-based representation of roads and intersections
+- Spatial and temporal traffic patterns
+- Traffic-flow prediction
+- Congestion-aware routing
+- Smart-city transportation applications
 
-### Analyzing the Bundle Size
+**Research technologies:** Python • Graph Neural Networks • Urban Mobility • Traffic Prediction
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🎨 Portfolio Features
 
-### Making a Progressive Web App
+The portfolio is designed as a recruiter-friendly single-page experience with:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Sticky navigation with section links
+- Hero section with role rotation and career metrics
+- About section with education and professional highlights
+- Categorized technical skills
+- Project cards with screenshots, features, technology stacks, source-code links, and demos
+- Research section
+- Coding and learning journey
+- Contact section with GitHub, LinkedIn, email, and resume access
+- Responsive layouts for desktop, tablet, and mobile
+- Consistent project-card sizing and image presentation
 
-### Advanced Configuration
+## 📁 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```text
+Portfolio/
+├── public/
+├── src/
+│   ├── assets/
+│   │   ├── profile.jpg
+│   │   └── project screenshots
+│   ├── components/
+│   │   ├── About.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Education.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Journey.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Research.jsx
+│   │   ├── Skills.jsx
+│   │   └── ...
+│   ├── App.js
+│   ├── index.css
+│   ├── index.js
+│   └── portfolioData.js
+├── package.json
+└── README.md
+```
 
-### Deployment
+> Component filenames may evolve as the portfolio is updated; `src/portfolioData.js` is the central source for profile, skills, projects, research, education, and journey content.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 💻 Run Locally
 
-### `npm run build` fails to minify
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Node.js
+- npm
+- Git
+
+### Installation
+
+```bash
+git clone https://github.com/Tasmia-Hossain/Portfolio.git
+cd Portfolio
+npm install
+npm start
+```
+
+Then open:
+
+```text
+http://localhost:3000
+```
+
+The development server reloads automatically when source files are changed.
+
+## 📦 Production Build
+
+Create an optimized production build with:
+
+```bash
+npm run build
+```
+
+The production files are generated in the `build/` directory.
+
+To run the test suite:
+
+```bash
+npm test
+```
+
+## 🌐 Deployment
+
+The portfolio is deployed online and can be viewed here:
+
+**Live Portfolio:** https://tasmia-portfolio-three.vercel.app
+
+The repository can be deployed to services such as Vercel, Netlify, or GitHub Pages with a suitable React build configuration.
+
+## 🧩 Updating Portfolio Content
+
+Most portfolio content is centralized in:
+
+```text
+src/portfolioData.js
+```
+
+This file contains:
+- Profile information
+- Navigation links
+- Professional roles
+- Hero metrics
+- Highlights
+- Skills
+- Projects
+- Research
+- Coding journey
+- Education
+
+To add or update a project, update its project object in `projects` and add the corresponding screenshot to `src/assets/`.
+
+## 📌 Engineering Focus
+
+I am currently building toward entry-level **Software Engineer / .NET Developer / Backend Developer** opportunities, with particular interest in:
+
+**C# → ASP.NET Core → Web APIs → EF Core → SQL Server → Authentication → Testing → Docker → Cloud**
+
+The portfolio is intentionally centered around projects that demonstrate practical software-development ability rather than only tutorial exercises.
+
+## 📫 Connect
+
+- **Portfolio:** https://tasmia-portfolio-three.vercel.app
+- **GitHub:** https://github.com/Tasmia-Hossain
+- **LinkedIn:** https://linkedin.com/in/tasmia-hossain-kashfia
+- **Email:** tasmiahossain360@gmail.com
+
+---
+
+<p align="center">
+  <sub>Built and maintained by Tasmia Hossain • 2026</sub>
+</p>
