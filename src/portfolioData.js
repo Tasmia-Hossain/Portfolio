@@ -66,7 +66,18 @@ export const skills = [
       "RESTful APIs",
       "Authentication",
       "CRUD Operations",
-      "Entity Framework Core (Learning)",
+      "Entity Framework Core",
+    ],
+  },
+  {
+    group: "Backend & APIs",
+    items: [
+      "NestJS",
+      "TypeScript",
+      "RESTful APIs",
+      "Swagger / OpenAPI",
+      "JWT Authentication",
+      "Role-based Access Control",
     ],
   },
   {
@@ -75,6 +86,8 @@ export const skills = [
       "SQL Server",
       "MySQL",
       "SQLite",
+      "PostgreSQL",
+      "Prisma ORM",
       "Database Design",
       "Query Design",
       "Relational Modeling",
@@ -85,8 +98,8 @@ export const skills = [
     items: ["JavaScript", "Bootstrap", "HTML5", "CSS3", "React (Basic)", "Responsive UI"],
   },
   {
-    group: "Tools & CS",
-    items: ["Git", "GitHub", "Java", "Python", "C++", "Graph Neural Networks"],
+    group: "Tools, Testing & CS",
+    items: ["Git", "GitHub", "Docker", "Jest", "Supertest", "Java", "Python", "C++", "Graph Neural Networks"],
   },
 ];
 
@@ -122,13 +135,13 @@ export const projects = [
   {
     name: "EchoGPT Backend",
     year: "2026",
-    category: "Backend REST API",
+    category: "AI Chat Backend API",
     summary:
       "A production-style REST API for an AI chat Chrome extension with authentication, subscriptions, multi-provider AI management, chat, web search, and Swagger documentation.",
     impact:
       "Demonstrates backend API design with NestJS, PostgreSQL, Prisma, JWT authentication, role-based access, encrypted provider keys, Docker, and automated tests.",
-    keyFeatures: ["JWT Auth", "Role-based Access", "AI Provider Management", "Chat & Search", "Swagger / OpenAPI"],
-    stack: ["NestJS", "TypeScript", "PostgreSQL", "Prisma", "JWT", "Docker"],
+    keyFeatures: ["JWT + Refresh Tokens", "RBAC & Subscriptions", "AI Provider Management", "Chat & Search Caching", "Rate Limiting & Validation", "Swagger / OpenAPI", "Automated Tests"],
+    stack: ["NestJS", "TypeScript", "PostgreSQL", "Prisma", "JWT", "Docker", "Jest / Supertest"],
     github: "https://github.com/Tasmia-Hossain/EchoGPTBackend",
     liveDemo: "",
     image: projectEchoGPT,
