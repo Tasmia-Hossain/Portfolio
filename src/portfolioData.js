@@ -44,15 +44,15 @@ export const heroMetrics = [
 export const highlights = [
   {
     title: "Backend Focus",
-    detail: "Building maintainable ASP.NET Core, C#, SQL Server, authentication, CRUD, and API-driven features.",
+    detail: "Building backend applications with ASP.NET Core, C#, SQL Server, authentication, CRUD, and REST APIs.",
   },
   {
     title: "Product Mindset",
-    detail: "Projects cover AI-assisted job tracking, plant care, a production-style REST API, lost-and-found recovery, smart parking, inventory workflows, and mobile learning tools.",
+    detail: "Building practical applications across AI, REST APIs, web systems, and mobile software.",
   },
   {
     title: "Completed Undergraduate Research",
-    detail: "Worked on traffic prediction and dynamic routing with Graph Neural Networks for Dhaka road networks.",
+    detail: "Research on traffic prediction and dynamic routing using Graph Neural Networks for Dhaka road networks.",
   },
 ];
 
@@ -109,7 +109,7 @@ export const projects = [
     year: "2026",
     category: "AI-powered .NET Web App",
     summary:
-      "A full-stack job-search workspace for managing applications, tracking status history, analyzing job descriptions with AI, and matching resumes to opportunities.",
+      "Job application tracker with status history, analytics, AI job analysis, and resume matching.",
     impact:
       "Demonstrates practical ASP.NET Core MVC development with authentication, user-specific data, analytics, EF Core persistence, and external AI integration.",
     keyFeatures: ["ASP.NET Core Identity", "CRUD & Search", "Dashboard Analytics", "AI Job Analysis", "Resume Matching"],
@@ -123,7 +123,7 @@ export const projects = [
     year: "2026",
     category: "AI-powered .NET Web App",
     summary:
-      "A plant-care management platform for plant profiles, watering and fertilizing records, health tracking, growth journals, and AI-powered care guidance.",
+      "Plant management app with care tracking, health records, image uploads, and AI-powered guidance.",
     impact:
       "Shows full-stack ASP.NET Core development with Identity, user-specific data isolation, file uploads, relational data modeling, and external AI API integration.",
     keyFeatures: ["ASP.NET Core Identity", "Plant & Care CRUD", "Image Uploads", "Health Tracking", "AI Health Assistant"],
@@ -137,7 +137,7 @@ export const projects = [
     year: "2026",
     category: "AI Chat Backend API",
     summary:
-      "A production-style backend for an AI chat Chrome extension with authentication, subscription quotas, multi-provider AI management, chat, cached web search, admin analytics, and Swagger documentation.",
+      "AI chat backend with authentication, subscriptions, multi-provider AI, chat, web search, and Swagger.",
     impact:
       "Demonstrates modular API architecture with NestJS, PostgreSQL, Prisma, JWT access and refresh tokens, RBAC, encrypted provider keys, rate limiting, request validation, caching, Docker, and automated tests.",
     keyFeatures: ["JWT + Refresh Tokens", "RBAC & Subscriptions", "AI Provider Management", "Chat & Search Caching", "Rate Limiting & Validation", "Swagger / OpenAPI", "Automated Tests"],
@@ -151,7 +151,7 @@ export const projects = [
     year: "2025",
     category: ".NET Full-stack Web App",
     summary:
-      "A recovery platform with authentication, image-based matching, advanced search, SMTP email alerts, and structured item recovery workflows.",
+      "Lost-and-found platform with authentication, image matching, search, email alerts, and recovery workflows.",
     impact:
       "Shows backend ownership across domain modeling, user flows, notification logic, and SQL Server-backed data access.",
     keyFeatures: ["Authentication", "CRUD", "SQL Server", "Responsive UI", "Email Notifications"],
@@ -165,7 +165,7 @@ export const projects = [
     year: "2024",
     category: "Marketplace Platform",
     summary:
-      "A parking discovery and booking system with map-based search, subscription contracts, reviews, admin tools, and payment history.",
+      "Parking discovery and booking platform with maps, subscriptions, reviews, and admin tools.",
     impact:
       "Built around real user roles, search workflows, transaction history, and operational admin visibility.",
     keyFeatures: ["CRUD", "Role-based Access", "Responsive UI", "Search", "Admin Dashboard"],
@@ -179,7 +179,7 @@ export const projects = [
     year: "2024",
     category: "Management System",
     summary:
-      "A food-industry inventory application with admin, client, and supplier access plus product management and reporting.",
+      "Inventory management system with role-based access, product management, and reporting.",
     impact:
       "Demonstrates CRUD-heavy workflow design, relational data handling, role separation, and business reporting.",
     keyFeatures: ["CRUD", "Role-based Access", "MySQL", "Responsive UI", "Reports"],
@@ -193,7 +193,7 @@ export const projects = [
     year: "2023",
     category: "Cross-platform Game",
     summary:
-      "A Sudoku app with puzzle generation, difficulty modes, save/resume, SQLite persistence, timer, counters, and tutorials.",
+      "Cross-platform Sudoku app with puzzle generation, save/resume, SQLite persistence, and tutorials.",
     impact:
       "Highlights mobile state management, persistence, algorithmic logic, and a polished user-facing experience.",
     keyFeatures: ["SQLite", "Save and Resume", "Puzzle Generation", "Responsive UI", "Local Storage"],
