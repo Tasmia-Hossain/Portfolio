@@ -1,7 +1,6 @@
 import profilePic from "./assets/profile.jpg";
 import projectAIJobTracker from "./assets/project-aijobtracker.png";
 import projectEchoGPT from "./assets/project-echogpt.png";
-import projectInventory from "./assets/project-inventory.png";
 import projectLostFound from "./assets/project-lost-found.png";
 import projectPlantCareAI from "./assets/project-plantcareai.png";
 import projectSafeParking from "./assets/project-safeparking.png";
@@ -36,7 +35,7 @@ export const roles = [
 ];
 
 export const heroMetrics = [
-  { value: "7+", label: "Production-style projects" },
+  { value: "6+", label: "Production-style projects" },
   { value: "3.60+", label: "CSE CGPA at AUST" },
   { value: "2026", label: "Graduated" },
 ];
@@ -173,20 +172,6 @@ export const projects = [
     github: "https://github.com/Tasmia-Hossain/safeparking",
     liveDemo: "",
     image: projectSafeParking,
-  },
-  {
-    name: "Inventory Control System",
-    year: "2024",
-    category: "Management System",
-    summary:
-      "Inventory management system with role-based access, product management, and reporting.",
-    impact:
-      "Demonstrates CRUD-heavy workflow design, relational data handling, role separation, and business reporting.",
-    keyFeatures: ["CRUD", "Role-based Access", "MySQL", "Responsive UI", "Reports"],
-    stack: ["PHP", "MySQL", "Bootstrap", "JavaScript"],
-    github: "https://github.com/Tasmia-Hossain/Inventory-Control-System",
-    liveDemo: "",
-    image: projectInventory,
   },
   {
     name: "Sudoku Bliss",
