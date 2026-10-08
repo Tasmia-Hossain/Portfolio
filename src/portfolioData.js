@@ -137,9 +137,9 @@ export const projects = [
     year: "2026",
     category: "AI Chat Backend API",
     summary:
-      "A production-style REST API for an AI chat Chrome extension with authentication, subscriptions, multi-provider AI management, chat, web search, and Swagger documentation.",
+      "A production-style backend for an AI chat Chrome extension with authentication, subscription quotas, multi-provider AI management, chat, cached web search, admin analytics, and Swagger documentation.",
     impact:
-      "Demonstrates backend API design with NestJS, PostgreSQL, Prisma, JWT authentication, role-based access, encrypted provider keys, Docker, and automated tests.",
+      "Demonstrates modular API architecture with NestJS, PostgreSQL, Prisma, JWT access and refresh tokens, RBAC, encrypted provider keys, rate limiting, request validation, caching, Docker, and automated tests.",
     keyFeatures: ["JWT + Refresh Tokens", "RBAC & Subscriptions", "AI Provider Management", "Chat & Search Caching", "Rate Limiting & Validation", "Swagger / OpenAPI", "Automated Tests"],
     stack: ["NestJS", "TypeScript", "PostgreSQL", "Prisma", "JWT", "Docker", "Jest / Supertest"],
     github: "https://github.com/Tasmia-Hossain/EchoGPTBackend",
