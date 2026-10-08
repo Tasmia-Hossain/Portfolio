@@ -1,6 +1,9 @@
 import profilePic from "./assets/profile.jpg";
+import projectAIJobTracker from "./assets/project-aijobtracker.png";
+import projectEchoGPT from "./assets/project-echogpt.png";
 import projectInventory from "./assets/project-inventory.png";
 import projectLostFound from "./assets/project-lost-found.png";
+import projectPlantCareAI from "./assets/project-plantcareai.png";
 import projectSafeParking from "./assets/project-safeparking.png";
 import projectSudoku from "./assets/project-sudoku.png";
 
@@ -100,7 +103,7 @@ export const projects = [
     stack: ["ASP.NET Core MVC", "C#", ".NET 10", "EF Core", "SQL Server", "Google Gemini"],
     github: "https://github.com/Tasmia-Hossain/AIJobTracker",
     liveDemo: "https://youtu.be/Z-YWoROj0PY",
-    image: "https://raw.githubusercontent.com/Tasmia-Hossain/AIJobTracker/main/screenshots/dashboard.png",
+    image: projectAIJobTracker,
   },
   {
     name: "PlantCareAI",
@@ -114,7 +117,7 @@ export const projects = [
     stack: ["ASP.NET Core MVC", "C#", ".NET 10", "EF Core", "SQL Server", "Groq API"],
     github: "https://github.com/Tasmia-Hossain/PlantCareAI",
     liveDemo: "https://youtu.be/IGENDYYFM4o",
-    image: "https://raw.githubusercontent.com/Tasmia-Hossain/PlantCareAI/main/docs/screenshots/dashboard.png",
+    image: projectPlantCareAI,
   },
   {
     name: "EchoGPT Backend",
@@ -128,7 +131,7 @@ export const projects = [
     stack: ["NestJS", "TypeScript", "PostgreSQL", "Prisma", "JWT", "Docker"],
     github: "https://github.com/Tasmia-Hossain/EchoGPTBackend",
     liveDemo: "",
-    image: "https://opengraph.githubassets.com/1/Tasmia-Hossain/EchoGPTBackend",
+    image: projectEchoGPT,
   },
   {
     name: "Lost and Found Hub",
