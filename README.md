@@ -89,7 +89,6 @@ My projects emphasize practical engineering concepts such as:
 - React (basic)
 - Responsive UI development
 
-### Other Technologies
 ## 🚀 Featured Projects
 
 | Project | Description | Main Technologies |
