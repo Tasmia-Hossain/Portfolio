@@ -33,7 +33,7 @@ export const roles = [
 ];
 
 export const heroMetrics = [
-  { value: "4+", label: "Production-style projects" },
+  { value: "7+", label: "Production-style projects" },
   { value: "3.60+", label: "CSE CGPA at AUST" },
   { value: "2026", label: "Graduated" },
 ];
@@ -45,7 +45,7 @@ export const highlights = [
   },
   {
     title: "Product Mindset",
-    detail: "Projects cover lost-and-found recovery, smart parking, inventory workflows, and mobile learning tools.",
+    detail: "Projects cover AI-assisted job tracking, plant care, a production-style REST API, lost-and-found recovery, smart parking, inventory workflows, and mobile learning tools.",
   },
   {
     title: "Completed Undergraduate Research",
@@ -88,6 +88,47 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    name: "AIJobTracker",
+    year: "2026",
+    category: "AI-powered .NET Web App",
+    summary:
+      "A full-stack job-search workspace for managing applications, tracking status history, analyzing job descriptions with AI, and matching resumes to opportunities.",
+    impact:
+      "Demonstrates practical ASP.NET Core MVC development with authentication, user-specific data, analytics, EF Core persistence, and external AI integration.",
+    keyFeatures: ["ASP.NET Core Identity", "CRUD & Search", "Dashboard Analytics", "AI Job Analysis", "Resume Matching"],
+    stack: ["ASP.NET Core MVC", "C#", ".NET 10", "EF Core", "SQL Server", "Google Gemini"],
+    github: "https://github.com/Tasmia-Hossain/AIJobTracker",
+    liveDemo: "https://youtu.be/Z-YWoROj0PY",
+    featured: true,
+  },
+  {
+    name: "PlantCareAI",
+    year: "2026",
+    category: "AI-powered .NET Web App",
+    summary:
+      "A plant-care management platform for plant profiles, watering and fertilizing records, health tracking, growth journals, and AI-powered care guidance.",
+    impact:
+      "Shows full-stack ASP.NET Core development with Identity, user-specific data isolation, file uploads, relational data modeling, and external AI API integration.",
+    keyFeatures: ["ASP.NET Core Identity", "Plant & Care CRUD", "Image Uploads", "Health Tracking", "AI Health Assistant"],
+    stack: ["ASP.NET Core MVC", "C#", ".NET 10", "EF Core", "SQL Server", "Groq API"],
+    github: "https://github.com/Tasmia-Hossain/PlantCareAI",
+    liveDemo: "https://youtu.be/IGENDYYFM4o",
+  },
+  {
+    name: "EchoGPT Backend",
+    year: "2026",
+    category: "Backend REST API",
+    summary:
+      "A production-style REST API for an AI chat Chrome extension with authentication, subscriptions, multi-provider AI management, chat, web search, and Swagger documentation.",
+    impact:
+      "Demonstrates backend API design with NestJS, PostgreSQL, Prisma, JWT authentication, role-based access, encrypted provider keys, Docker, and automated tests.",
+    keyFeatures: ["JWT Auth", "Role-based Access", "AI Provider Management", "Chat & Search", "Swagger / OpenAPI"],
+    stack: ["NestJS", "TypeScript", "PostgreSQL", "Prisma", "JWT", "Docker"],
+    github: "https://github.com/Tasmia-Hossain/EchoGPTBackend",
+    liveDemo: "",
+    featured: true,
+  },
   {
     name: "Lost and Found Hub",
     year: "2025",
